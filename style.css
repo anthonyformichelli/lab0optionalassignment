@@ -1,0 +1,86 @@
+  @font-face {
+    font-family: SeafordBold;
+    src: url(./font/SeafordBold.ttf);
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: SeafordRg;
+    src: url(./font/SeafordRg.ttf);
+    font-weight: normal;
+  }
+
+  h1 {
+    color: #FF2400;
+    font-family: 'SeafordBold';
+    margin-left: 0px;
+  }
+
+  h2 {
+    font-family: SeafordRg;
+    color: #FF2400;
+    font-weight: bolder;
+  }
+
+  h3 {
+    padding-left: 10px;
+  }
+
+  body {
+    font-family: SeafordRg;
+    background-color: white;
+  }
+
+  .container {
+    background-color: rgb(214, 203, 203);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer a {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+  }
+
+  .header p {
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .header h1 {
+    color: white;
+    font-size: 75px;
+  }
+
+  .subheader {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+
+  .subheader p {
+    color: black;
+    font-weight: bold;
+    width: 45%;
+    align-self: center;
+  }
